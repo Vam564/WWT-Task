@@ -1,50 +1,25 @@
 ### Welcome to Reacterviewing, the repo with surprisingly little in it
 
-If you're applying for a React development position at World Wide Technology Application Services then this is the repo for you!
+This repo consists of couple of tasks 
+1. Album Task
+2. Contact Search Engine 
 
-### Instructions
-Your mission, should you choose to accept it, is to show album titles and images in a list view. The album title and image should be retrieved from [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/). The project already contains a base URL (the one above!) and endpoint URLs for this task.
+Album Task: 
+  It will show album titles and images in a list view. The album title and image are retrieving from [https://jsonplaceholder.typicode.com/](https://jsonplaceholder.typicode.com/). When we click on "Remove all E's" button it will remove all E's from the album titles.
 
-BUSINESS REQUIREMENTS:
-- Remove all occurences of the letter "e" (case-insensitive) from album titles
+Contact Search Engine :
 
-You are free to change *anything* about the current code so long as you accomplish this goal. Make it read and function the way you want it to, but bear in mind we’re looking for people who understand what best industry practices look like in React.
+This task will shows you list of contacts in user system and search box where we can search the contacts in the list. The search engine will search the data throgh the list and shows the exact matches.
 
-NOTE: The code in its current state does not compile, _that's on purpose:_ on a real-world project you might need to pick up code from another member of your team and continue from where they left off, and they may not have completed their thought.
+**Steps:**
+Download the zip or clone the repo
 
-### FAQ (click to expand):
-<details>
-  <summary>Q:  What if I want to use 3rd party libraries?</summary>
+run npm install
 
-  A: Do it! You can change **anything** about the current code so long as you accomplish the overall goal, show the album titles, and images, in a scrolling list.  If there's a library that will help you get the job done, use it!  React apps are frequently built using a wide variety of open-source libraries.
-</details>
+run npm start 
 
-<details>
-  <summary>Q:  JsonPlaceholder is not working, what do I do?</summary>
+Explore the application and tasks
 
-  A: It only serves up static data, it's probably working, double check. If for some reason the service really did go down use a different one like: 
-  - [gorest the other fake API that looks exactly like JsonPlaceholder](https://gorest.co.in/)
-  - [reqres the fake API](https://reqres.in/)
-  - [the marvel comics API](https://developer.marvel.com/)
-  - Literally anything that returns images as URLs in a JSON object
-  - Wiremock or a similar library that fakes JSON responses
-</details>
+Please comment if you have any queries and give me suggestions if anything can be done better.
 
-<details>
-  <summary>Q:  This was built with a different version of React than I use, what do I do?</summary>
-
-  A: Feel free to copy the files to a different React version, that's completely fine. However we do ask you don't use such an outdated version that we'll have a hard time building your project.
-</details>
-
-<details>
-  <summary>Q:  What if I want to go above and beyond?</summary>
-
-  A: There'll be plenty of time in later interviews to showcase your skills, don't worry about it right now.
-
-<details>
-    <summary>But I really, really want to</summary>
-
-    A: You can change ***ANYTHING*** about the codebase so long as you accomplish the overall goal. Seriously though, we give you plenty of opportunity to showcase your great engineering skills later on.
-
-</details>
-</details>
+I have used CONTEXT API to store or cache the data.
